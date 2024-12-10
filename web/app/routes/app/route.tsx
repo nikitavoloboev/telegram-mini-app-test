@@ -11,6 +11,6 @@ function OutletComponent() {
   )
 }
 
-export const Route = createFileRoute("/_app")({
+export const Route = createFileRoute("/app")({
   component: OutletComponent,
 })
