@@ -9,12 +9,12 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.62.3",
-    "@tanstack/react-query-devtools": "^5.62.3",
-    "@tanstack/react-router": "^1.87.3",
-    "@tanstack/react-router-with-query": "^1.87.3",
-    "@tanstack/router-devtools": "^1.87.3",
-    "@tanstack/start": "^1.87.4",
+    "@tanstack/react-query": "^5.62.7",
+    "@tanstack/react-query-devtools": "^5.62.7",
+    "@tanstack/react-router": "^1.87.7",
+    "@tanstack/react-router-with-query": "^1.87.7",
+    "@tanstack/router-devtools": "^1.87.7",
+    "@tanstack/start": "^1.87.7",
     "@telegram-apps/sdk-react": "^2.0.19",
     "@telegram-apps/telegram-ui": "^2.1.8",
     "eruda": "^3.4.1",
