@@ -9,4 +9,14 @@ export default defineConfig({
       }),
     ],
   },
+  tsr: {
+    customScaffolding: {
+      routeTemplate: [
+        "%%tsrImports%%",
+        "\n\n",
+        "function RouteComponent() { return <></> };\n\n",
+        "%%tsrExportStart%%{\n component: RouteComponent\n }%%tsrExportEnd%%\n",
+      ].join(""),
+    },
+  },
 })
