@@ -1,4 +1,6 @@
-import { AppRoot } from "@telegram-apps/telegram-ui"
+import * as TelegramUI from "@telegram-apps/telegram-ui"
+const { AppRoot } = TelegramUI
+
 import "@telegram-apps/telegram-ui/dist/styles.css"
 import { PropsWithChildren, useEffect } from "react"
 
