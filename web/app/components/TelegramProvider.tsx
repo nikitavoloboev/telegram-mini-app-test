@@ -11,7 +11,7 @@ import {
   retrieveLaunchParams,
 } from "@telegram-apps/sdk-react"
 import { init } from "~/lib/tma/init"
-import "./miniAppEnv/mock-env"
+import "~/lib/tma/mock-env"
 
 function TelegramProvider({ children }: PropsWithChildren) {
   init(retrieveLaunchParams().startParam === "debug" || import.meta.env.DEV)
